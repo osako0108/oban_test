@@ -973,24 +973,20 @@ body.nav-open {
 }
 
 /* ----------------------------------------
-   Menu Sticky Header
+   Menu Tabs Wrapper (Sticky)
    ---------------------------------------- */
-.menu-sticky-header {
+.menu-tabs-wrapper {
     position: sticky;
     top: 64px;
     /* Header height */
     z-index: 100;
-    background: linear-gradient(180deg, var(--color-bg-dark) 0%, var(--color-bg-dark) 90%, transparent 100%);
-    padding-top: var(--space-md);
-    padding-bottom: var(--space-xs);
+    background: var(--color-bg-light);
     margin-left: calc(-1 * var(--space-md));
     margin-right: calc(-1 * var(--space-md));
     padding-left: var(--space-md);
     padding-right: var(--space-md);
-}
-
-.menu-sticky-header .section-title {
-    margin-bottom: var(--space-md);
+    padding-top: var(--space-xs);
+    padding-bottom: 0;
 }
 
 /* ----------------------------------------
@@ -1001,7 +997,7 @@ body.nav-open {
     gap: var(--space-xs);
     overflow-x: auto;
     padding-bottom: var(--space-sm);
-    margin-bottom: var(--space-lg);
+    margin-bottom: var(--space-md);
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
